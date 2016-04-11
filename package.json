@@ -4,13 +4,19 @@
   "description": "consumer service tutorial",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "bower install",
+    "precaesium": "npm install",
+    "caesium": "node node_modules/caesium/src/bin/caesium-cli.js --documentRoot=. --port=9090"
   },
   "keywords": [
     "cs",
     "consumer",
     "service"
   ],
+  "devDependencies": {
+    "caesium": "2.6.x"
+  },
   "author": "yanning",
   "license": "ISC"
 }
