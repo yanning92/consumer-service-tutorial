@@ -1,0 +1,27 @@
+{
+  "name": "not used",
+  "version": "not used",
+  "dependencies": {
+    "ccSdk": "^2.5.0"
+  },
+  "description": "consumer service tutorial",
+  "main": "app/app.js",
+  "keywords": [
+    "cs",
+    "consumer",
+    "service"
+  ],
+  "authors": [
+    "yanning"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

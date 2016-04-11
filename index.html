@@ -1,0 +1,21 @@
+<html>
+<head>
+
+</head>
+<body ng-app="myFirstConsumer">
+
+<div ng-controller="TerminalIdController">
+  <div>{{message}}</div>
+</div>
+
+<script src="bower_components/angular/angular.js"/>
+<sript src="bower_components/ccCjsa/ccCjsa"/>
+<sript src="bower_components/ccSdk/ccSdk"/>
+<script>
+  var myFirstConsumer = angular.module('myFirstConsumer', ['ccSdk']);
+  myFirstConsumer.controller('TerminalIdController', ['$scope', 'ccTerminalService', function($scope, ccTerminalService){
+    $scope.message = ccTerminalService.id
+  }])
+</script>
+</body>
+</html>
