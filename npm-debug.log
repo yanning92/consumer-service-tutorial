@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'caesium' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose run-script [ 'precaesium', 'caesium', 'postcaesium' ]
+6 info precaesium consumer@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info caesium consumer@1.0.0
+9 verbose unsafe-perm in lifecycle true
+10 info consumer@1.0.0 Failed to exec caesium script
+11 error consumer@1.0.0 caesium: `node node_modules/caesium/src/bin/caesium-cli.js --documentRoot=. --port=9090`
+11 error Exit status 8
+12 error Failed at the consumer@1.0.0 caesium script.
+12 error This is most likely a problem with the consumer package,
+12 error not with npm itself.
+12 error Tell the author that this fails on your system:
+12 error     node node_modules/caesium/src/bin/caesium-cli.js --documentRoot=. --port=9090
+12 error You can get their info via:
+12 error     npm owner ls consumer
+12 error There is likely additional logging output above.
+13 error System Windows_NT 6.1.7601
+14 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "caesium"
+15 error cwd C:\Users\YE250014\workspace\consumer service tutorial
+16 error node -v v0.10.38
+17 error npm -v 1.4.28
+18 error code ELIFECYCLE
+19 verbose exit [ 1, true ]

@@ -1,0 +1,10 @@
+(function (){
+  'use strict'
+
+  angular.module('consumerServiceApp')
+    .controller('TerminalIDController', function($scope, ccLoggerService, ccTerminalService) {
+      ccLoggerService.debug('consumerServiceApp', 'TerminalIDController', 'Creating TerminalIDController')
+
+      $scope.message = ccTerminalService.id
+    })
+})

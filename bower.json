@@ -2,7 +2,9 @@
   "name": "not used",
   "version": "not used",
   "dependencies": {
-    "ccSdk": "^2.5.0"
+    "ccSdk": "^2.5.0",
+    "ccBoot": "^2.5.0",
+    "angular-route": "1.3.17"
   },
   "description": "consumer service tutorial",
   "main": "app/app.js",

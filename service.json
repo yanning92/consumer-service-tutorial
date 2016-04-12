@@ -1,0 +1,12 @@
+{
+  "metadataVersion": "1.0",
+
+  "identity": {
+    "groupId": "com.ncr",
+    "artifactId": "ConsumerService",
+    "version": "1.0.0",
+    "name": "ConsumerService"
+  },
+  "jsapiDependencies": [],
+  "dibsDependencies": []
+}

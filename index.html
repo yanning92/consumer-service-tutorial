@@ -2,20 +2,15 @@
 <head>
 
 </head>
-<body ng-app="myFirstConsumer">
+<body ng-app="consumerServiceApp">
 
-<div ng-controller="TerminalIdController">
-  <div>{{message}}</div>
-</div>
+<div ng-view></div>
 
 <script src="bower_components/angular/angular.js"/>
-<sript src="bower_components/ccCjsa/ccCjsa"/>
-<sript src="bower_components/ccSdk/ccSdk"/>
-<script>
-  var myFirstConsumer = angular.module('myFirstConsumer', ['ccSdk']);
-  myFirstConsumer.controller('TerminalIdController', ['$scope', 'ccTerminalService', function($scope, ccTerminalService){
-    $scope.message = ccTerminalService.id
-  }])
-</script>
+<sript src="bower_components/ccCjsa/ccCjsa.min.js"/>
+<script src="bower_components/ccBoot/ccBoot.min.js"/>
+<sript src="bower_components/ccSdk/ccSdk.min.js"/>
+<script src="controller/TerminalIDController.js"/>
+<script src="app/app.js"/>
 </body>
 </html>
